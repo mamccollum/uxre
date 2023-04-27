@@ -75,4 +75,4 @@ onefile.o: _collelem.c _collmult.c bracket.c regcomp.c regdfa.c regexec.c
 onefile.o: regfree.c regnfa.c regparse.c stubs.c 
 
 mrproper: clean
-	rm -f libuxre.a Makefile
+	rm -f libuxre.a libuxre.so Makefile
