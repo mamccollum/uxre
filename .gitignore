@@ -1,0 +1,7 @@
+.DS_Store
+*.o
+*.a
+*.so
+Makefile
+mk.config
+mk.config.conf

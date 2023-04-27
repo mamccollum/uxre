@@ -1,0 +1,4 @@
+# Where to place binaries.
+LIBDIR=$(PREFIX)/lib
+
+CPPFLAGS += -Wall -std=c89
