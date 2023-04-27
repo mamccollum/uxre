@@ -52,10 +52,9 @@ install:
 	install -d $(DESTDIR)$(PREFIX)/lib
 	install -m 644 libuxre.a $(DESTDIR)$(PREFIX)/lib
 	install -m 755 libuxre.so $(DESTDIR)$(PREFIX)/lib
-	install -d $(DESTDIR)$(PREFIX)/include
-	install -m 644 re.h $(DESTDIR)$(PREFIX)/include
-	install -m 644 regex.h $(DESTDIR)$(PREFIX)/include
-	install -m 644 wcharm.h $(DESTDIR)$(PREFIX)/include
+	install -d $(DESTDIR)$(PREFIX)/include/uxre
+	install -m 644 regex.h $(DESTDIR)$(PREFIX)/include/uxre
+	install -m 644 wcharm.h $(DESTDIR)$(PREFIX)/include/uxre
 
 clean:
 	rm -f $(OBJ) core log *~
